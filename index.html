@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Clickkart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Clickkart</h1>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <div class="cart">
+      🛒 <span id="cartCount">0</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="filters">
+      <button onclick="filterCategory('all')">All</button>
+      <button onclick="filterCategory('electronics')">Electronics</button>
+      <button onclick="filterCategory('clothing')">Clothing</button>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <!-- JS products render -->
+    </div>
+  </main>
+
+  <!-- Modal for product quick view -->
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <img id="modalImg" src="" alt="">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <p id="modalPrice"></p>
+      <button id="modalAddCart">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
