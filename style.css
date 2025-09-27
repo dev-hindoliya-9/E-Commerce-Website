@@ -100,3 +100,10 @@ header button {
 .modal-content { background:var(--card-bg); padding:20px; border-radius:10px; position:relative; max-width:400px; width:90%; text-align:center; }
 .modal-content img { height:200px; object-fit:contain; margin-bottom:10px; }
 .close { position:absolute; top:5px; right:10px; cursor:pointer; font-size:20px; }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 10px;
