@@ -1,6 +1,6 @@
 const products = [
   {id:1, title:"Phone", price:29999, category:"electronics", desc:"Smartphone with 6GB RAM", img:"mobile.png"},
-  {id:2, title:"T-Shirt", price:1000, category:"clothing", desc:"Cotton T-Shirt", img:"tshirt.png"},
+  {id:2, title:"T-Shirt", price:1000, category:"clothing", desc:"Cotton T-Shirt", img:"https://github.com/dev-hindoliya-9/E-Commerce-Website/blob/main/tshirt.png"},
   {id:3, title:"Laptop", price:79999, category:"electronics", desc:"Laptop with i5 processor", img:"laptop.png"},
   {id:4, title:"Jeans", price:1499, category:"clothing", desc:"Denim Jeans", img:"jeans.webp"},
   // add more products
